@@ -1,0 +1,50 @@
+  /*---------------- Start Hero ----------------*/
+  .hero {
+    background-image: url(../img/bailey-zindel-NRQV-hBF10M-unsplash.jpg);
+    height: 800px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 0 20px;
+  }
+  
+  .hero .zelt-logo {
+    fill: #fc845d; 
+    width: 100px; 
+    height: 100px; 
+    margin-bottom: 20px; 
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #45A29E;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    background-color: rgba(252, 132, 93, 0.8);
+    padding: 10px; 
+    border-radius: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #45A29E;
+    color: #1F2833;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: #66FCF1;
+    color: #1F2833;
+  }
+  /*---------------- Ende Hero ----------------*/

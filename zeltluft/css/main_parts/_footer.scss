@@ -1,0 +1,76 @@
+  /*------------- Start Fußzeile --------------*/
+  footer {
+    background-color: #002a38;
+    padding: 10px 0; 
+    }
+    
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+    
+  footer ul li {
+    margin: 0 10px;
+    }
+    
+  footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Menlo, monospace;
+    transition: all 0.3s ease-in-out;
+    box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
+    }
+    
+  footer ul li a:hover {
+    box-shadow: inset 0 -1.2em 0 hsla(0, 0%, 100%, 0.4);
+    }
+  /* Social Media */  
+  footer li a.instagram {
+    color: #C13584; 
+    }
+    
+  footer li a.twitter {
+    color: #1DA1F2; 
+    }
+    
+  footer li a.youtube {
+    color: #FF0000; 
+    }
+    
+  footer li a.youtube span {
+    color: #FDFEFB; 
+    }
+    
+  footer li a.impressum,
+  footer li a.datenschutz {
+    color: #FDFEFB; 
+    }
+    
+  footer li.heart {
+    color: white;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    }
+    
+  footer ul li:hover ~ li.heart p {
+    animation: wave-animation 0.3s infinite;
+    }
+  
+  @keyframes wave-animation {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(20deg);
+    }
+    75% {
+      transform: rotate(-15deg);
+    }
+  }  
+  /*---------------- Ende Fußzeile ----------------*/

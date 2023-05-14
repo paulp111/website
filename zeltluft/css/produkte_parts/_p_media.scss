@@ -1,0 +1,49 @@
+/*------- Start Media Queries Smartphones -------*/
+@media only screen and (max-width: 480px) {
+    /* Adjust Header*/
+    header .logo {
+      font-size: 20px;
+      }
+        
+    header nav ul li a {
+      font-size: 14px;
+      }
+    /* Adjust footer*/
+    footer ul li a {
+      font-size: 14px;
+      }
+    }
+    /*------- Ende Media Queries Smartphones -------*/
+    
+    /*--------- Start Media Queries Tablets --------*/
+    @media only screen and (min-width: 481px) and (max-width: 912px) {
+    /* Adjust Header*/
+    header .logo {
+      font-size: 20px;
+      }
+      
+    header nav ul li a {
+      font-size: 16px;
+      }
+    /* Adjust Product*/
+    .product-container {
+      gap: 10px;
+      }
+    
+    .product {
+      width: 200px;
+      }
+    
+    .product-title {
+      font-size: 16px;
+      }
+    
+    .product-price {
+        font-size: 14px;
+      }
+    /* Adjust Footer*/
+      footer ul li a {
+        font-size: 16px;
+      }
+    }
+    /*--------- Ende Media Queries Tablets ---------*/

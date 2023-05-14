@@ -1,0 +1,78 @@
+/*---------------- Start Hero ----------------*/
+.hero {
+    background-image: url(../img/a-n-v-e-s-h-cxEI5bFR8Mo-unsplash.jpg);
+    height: 800px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 0 20px;
+  }
+  
+  .hero .zelt-logo {
+    fill: #fc845d; 
+    width: 100px; 
+    height: 100px; 
+    margin-bottom: 20px; 
+  }
+  .kontaktformular {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    }
+    
+  .kontaktformular h2 {
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    text-align: center;
+    color: #333; 
+    }
+    
+  .kontaktformular label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333; 
+    }
+    
+  .kontaktformular input,
+  .kontaktformular textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #333; 
+    }
+  
+  .kontaktformular textarea {
+    resize: none; 
+    }
+  .kontaktformular textarea {
+    resize: none; 
+    }
+    
+  .kontaktformular button {
+    background-color: #fc845d;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    }
+    
+  .kontaktformular button:hover {
+    background-color: #f76b42;
+    }
+  
+  /*---------------- Ende Hero ----------------*/

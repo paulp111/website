@@ -1,0 +1,33 @@
+/*------ Start Media Query Smartphone -----*/
+@media only screen and (max-width: 480px) {
+    /* Adjust header */
+      header .logo {
+        font-size: 20px;
+      }
+          
+      header nav ul li a {
+        font-size: 14px;
+      }
+    /* Adjust footer */
+      footer ul li a {
+        font-size: 14px;
+      }
+    }
+    /*------ Ende Media Query Smartphone ------*/
+    
+    /*-------- Start Media Query Tablet -------*/
+    @media only screen and (min-width: 481px) and (max-width: 912px) {
+    /* Adjust header*/
+      header .logo {
+        font-size: 20px;
+      }
+      
+      header nav ul li a {
+        font-size: 16px;
+      }
+    /* Adjust footer */
+      footer ul li a {
+        font-size: 16px;
+      }
+    }
+    /*-------- Ende Media Query Tablet -------*/

@@ -1,0 +1,123 @@
+/*--------- Start Media Query Smartphone --------*/
+@media only screen and (max-width: 480px) {
+    /* Adjust header  */
+      header .logo {
+        font-size: 20px;
+      }
+      
+      header nav ul li a {
+        font-size: 14px;
+      }
+    /* Adjust hero*/  
+      .hero {
+        padding: 50px 10px;
+      }
+      
+      .hero .zelt-logo {
+        width: 60px;
+        height: 60px;
+      }
+      
+      .about-us h2 {
+        font-size: 30px;
+      }
+      
+      .person img {
+        width: 120px;
+        height: 120px;
+      }
+    /* Adjust person*/
+      .person-1 img {
+        position: relative;
+        left: 0;
+      }
+      
+      .person-2 img {
+        position: relative;
+        right: 0;
+      }
+      
+      .person p {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+      }
+      
+      .person-1 p {
+        position: relative;
+        left: 0;
+      }
+      
+      .person-2 p {
+        position: relative;
+        right: 0;
+      }
+      /* Adjust footer*/
+      footer ul li a {
+        font-size: 14px;
+      }
+    }
+    /*--------- End Media Query Smartphone --------- */
+    
+    /*---------- Start Media Query Tablet -----------*/
+    @media only screen and (min-width: 481px) and (max-width: 912px) {
+    /* Adjust header*/
+      header .logo {
+        font-size: 20px;
+      }
+    
+      header nav ul li a {
+        font-size: 16px;
+      }
+    /* Adjust hero*/
+      .hero {
+        padding: 50px 20px;
+      }
+    
+      .hero .zelt-logo {
+        width: 80px;
+        height: 80px;
+      }
+    
+      .about-us h2 {
+        font-size: 40px;
+      }
+    
+      .person img {
+        width: 150px;
+        height: 150px;
+      }
+    /* Adjust person*/
+      .person-1 img {
+        position: relative;
+        left: 0;
+      }
+    
+      .person-2 img {
+        position: relative;
+        right: 0;
+      }
+    
+      .person p {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+      }
+    
+      .person-1 p {
+        position: relative;
+        left: 0;
+        margin-top: 10px;
+      }
+    
+      .person-2 p {
+        position: relative;
+        right: 0;
+        margin-top: 10px;
+      }
+    /* Adjust footer */
+      footer ul li a {
+        font-size: 16px;
+      }
+    }
+    /*---------- Ende Media Query Tablet -----------*/

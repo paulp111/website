@@ -1,0 +1,70 @@
+/*------- Start Media Queries Smartphones -------*/
+@media only screen and (max-width: 480px) {
+    header {
+      height: 60px;
+    }
+    
+    header .logo {
+      font-size: 18px;
+    }
+    
+    header nav ul li a {
+      font-size: 14px;
+    }
+  
+    .hero {
+      height: 500px;
+    }
+    
+    .kontaktformular h2 {
+      font-size: 20px;
+    }
+    
+    .kontaktformular label {
+      font-size: 14px;
+    }
+    
+    .kontaktformular input,
+    .kontaktformular textarea {
+      font-size: 14px;
+    }
+  /* Adjust footer*/
+    footer ul li a {
+    font-size: 14px;
+    }
+  }
+  /*------- Ende Media Queries Smartphones -------*/
+  
+  /*--------- Start Media Queries Tablets --------*/
+  @media only screen and (min-width: 481px) and (max-width: 912px) {
+  /* Adjust header */
+    header .logo {
+      font-size: 20px;
+      }
+    
+    header nav ul li a {
+      font-size: 16px;
+      }
+  
+    .hero {
+      height: 600px;
+    }
+    
+    .kontaktformular h2 {
+      font-size: 22px;
+    }
+    
+    .kontaktformular label {
+      font-size: 16px;
+    }
+    
+    .kontaktformular input,
+    .kontaktformular textarea {
+      font-size: 16px;
+    }
+  /* Adjust footer */
+    footer ul li a {
+      font-size: 16px;
+    }
+  }
+  /*--------- Ende Media Queries Tablets --------*/

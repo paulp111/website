@@ -1,0 +1,64 @@
+  /*------- Start Media Queries Smartphones -------*/
+  @media only screen and (max-width: 480px) {
+    header .logo {
+      font-size: 20px;
+      }
+    
+    header nav ul li a {
+      font-size: 14px;
+      }
+  
+    .hero {
+      height: 500px;
+    }
+    
+    .hero h1 {
+      font-size: 2rem;
+      color: #fff;
+      background-color: rgba(252, 132, 93, 0.8);
+      padding: 10px; 
+      border-radius: 10px; 
+    }
+    
+    .hero p {
+      font-size: 1.2rem;
+    }
+  /*Adjust footer*/
+    footer ul li a {
+    font-size: 14px;
+    }
+  }
+  /*------- Ende Media Queries Smartphones -------*/
+  
+  /*--------- Start Media Queries Tablets --------*/
+  @media only screen and (min-width: 481px) and (max-width: 912px) {
+  /* Adjust header*/
+    header .logo {
+      font-size: 20px;
+      }
+    
+    header nav ul li a {
+      font-size: 16px;
+      }
+  
+    .hero {
+      height: 600px;
+    }
+    
+    .hero h1 {
+      font-size: 2.5rem;
+      color: #fff;
+      background-color: rgba(252, 132, 93, 0.8);
+      padding: 10px; 
+      border-radius: 10px; 
+    }
+    
+    .hero p {
+      font-size: 1.3rem;
+    }
+  /* Adjust footer */
+    footer ul li a {
+      font-size: 16px;
+    }
+  }
+  /*--------- Ende Media Queries Tablets --------*/
